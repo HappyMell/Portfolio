@@ -51,7 +51,7 @@
         "gulp-webp": "^4.0.1",
         "heroku": "^7.25.0",
         "imagemin-pngquant": "^8.0.0",
-        "jquery": "3.4.1",
+        "jquery": "3.5.0",
         "jquery.easing": "^1.4.1",
         "merge-stream": "2.0.0",
         "slick-carousel": "^1.8.1"
