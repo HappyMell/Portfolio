@@ -1,0 +1,59 @@
+{
+    "title": "Resume",
+    "name": "portfolio",
+    "version": "5.0.7",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Mellisa",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "author": "Mellisa",
+    "dependencies": {
+        "@babel/core": "^7.8.3",
+        "@babel/preset-env": "^7.8.3",
+        "@fortawesome/fontawesome-free": "5.9.0",
+        "bootstrap": "4.3.1",
+        "browser-sync": "2.26.7",
+        "cssnano": "^4.1.10",
+        "del": "4.1.1",
+        "flickity": "^2.2.1",
+        "flickity-bg-lazyload": "^1.0.1",
+        "flickity-imagesloaded": "^2.0.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-babel": "^8.0.0",
+        "gulp-cheerio": "^1.0.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-header": "2.0.7",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-order": "^1.2.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-svgmin": "^2.2.0",
+        "gulp-svgstore": "^7.0.1",
+        "gulp-uglify": "3.0.2",
+        "gulp-webp": "^4.0.1",
+        "heroku": "^7.25.0",
+        "imagemin-pngquant": "^8.0.0",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1",
+        "merge-stream": "2.0.0",
+        "slick-carousel": "^1.8.1"
+    }
+}

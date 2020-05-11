@@ -1,0 +1,116 @@
+/*
+
+.flickity-viewport {
+  height: 144px !important;
+}
+
+@media (max-width: 991px) {
+  .flickity-viewport {
+    //   height: 195px !important;
+  }
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.carousel {
+  height: auto;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  height: 100%;
+}
+
+.slick-list {
+  height: 100%;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.carousel-cell {
+  background-position: center;
+  height: 100%;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.flickity-slider img {
+  max-width: none;
+}
+
+.flickity-prev-next-button.next {
+  right: -8px;
+}
+
+.flickity-prev-next-button.previous {
+  left: -8px;
+}
+
+.flickity-prev-next-button {
+  width: 45px;
+  height: 100px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+
+/* arrow color */
+
+/*
+
+.flickity-prev-next-button .arrow {
+  fill: #000;
+}
+.flickity-prev-next-button.no-svg {
+  color: #000;
+}
+/* hide disabled button */
+
+/*
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+.flickity-slider {
+  display: flex;
+  align-items: center;
+}
+*/
+
+.carousel {
+  .carousel-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    height: 200px;
+    width: 100%;
+  }
+
+  @media (min-width: 528px) {
+    .carousel-image {
+      height: 300px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .carousel-image {
+      height: 400px;
+      max-width: 1000px;
+    }
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+  width: 2%;
+}

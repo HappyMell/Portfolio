@@ -1,0 +1,56 @@
+/*
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-dialog {
+  height: 100%;
+}
+
+.modal-content {
+  height: 50%;
+}
+
+.modal-backdrop {
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .modal-content {
+    height: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  .modal-content {
+    height: 75%;
+  }
+}
+*/
+
+.modal-button {
+  padding: 8px;
+  margin: 0 15px;
+  background: #fff;
+  border-radius: 1px;
+  border: none;
+  box-shadow: 0 4px 5px 3px rgba(169, 169, 174, 0.3);
+  transition: box-shadow 500ms ease, background-color 500ms ease,
+    color 500ms ease;
+
+  &:hover {
+    box-shadow: 0 0 0 0 #ddd;
+  }
+}
+
+.modal-dialog {
+  max-width: 1054px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
